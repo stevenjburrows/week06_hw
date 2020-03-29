@@ -1,0 +1,53 @@
+.label {
+    font-size: large;
+    font-weight: bold;
+    padding: 1rem;
+}
+h1 {
+    text-align: center;
+}
+#review-form {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ddeaff;
+    border: 1px solid #20437c;
+    border-radius: 10px;
+    margin: auto;
+}
+
+#delete-all, input[type=submit] {
+    background-color: rgb(109, 109, 109);
+    border: none;
+    color: white;
+    
+    padding: 0.8rem 1.8rem;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+#delete-all {
+    display: block;
+    margin: auto;
+}
+
+li{
+    list-style: none;
+}
+
+
+#games-list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+.games-list-item {
+    margin: 0.5rem 0.5rem;
+    padding: 0.5rem 0.8rem;
+    border: 1px solid #20437c;
+    border-radius: 5%;
+    background: #ddeaff;
+  }
