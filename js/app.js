@@ -19,7 +19,19 @@ const handleFormSubmit = function(e) {
 
 const createGameListItem = function(form) {
     const gameListItem = document.createElement('li');
-    gameListItem.classList.add('games-list-item');
+    if(form.genre.value == "Action") {gameListItem.classList.add('action-games-list-item');}
+    if(form.genre.value == "Horror") {gameListItem.classList.add('horror-games-list-item');}
+    if(form.genre.value == "FPS") {gameListItem.classList.add('fps-games-list-item');}
+    if(form.genre.value == "Platform") {gameListItem.classList.add('platform-games-list-item');}
+    if(form.genre.value == "Sports") {gameListItem.classList.add('sports-games-list-item');}
+
+    else {
+        gameListItem.classList.add('games-list-item');
+    }
+   
+    console.log(form.genre.value);
+    
+    
 
     const name = document.createElement('h3');
     name.textContent = form.name.value; 

@@ -16,22 +16,26 @@ h1 {
     border: 1px solid #20437c;
     border-radius: 10px;
     margin: auto;
+ 
 }
 
 #delete-all, input[type=submit] {
     background-color: rgb(109, 109, 109);
     border: none;
     color: white;
-    
     padding: 0.8rem 1.8rem;
     text-decoration: none;
     margin: 4px 2px;
     cursor: pointer;
     border-radius: 5px;
 }
+input[type=submit] {
+    margin-bottom: 0.75rem;
+}
 #delete-all {
     display: block;
     margin: auto;
+    margin-top: 1rem;
 }
 
 li{
@@ -50,4 +54,58 @@ li{
     border: 1px solid #20437c;
     border-radius: 5%;
     background: #ddeaff;
+  }
+
+  .action-games-list-item {
+    margin: 0.5rem 0.5rem;
+    padding: 0.5rem 0.8rem;
+    border: 1px solid #eba14d;
+    border-radius: 5%;
+    background: #e2ec57;
+    font-family: 'Righteous', cursive;
+  }
+
+  .horror-games-list-item {
+    margin: 0.5rem 0.5rem;
+    padding: 0.5rem 0.8rem;
+    border: 1px solid red;
+    border-radius: 5%;
+    background: black;
+    color: red;
+    font-family: 'Liu Jian Mao Cao', cursive;
+    font-weight: bolder;
+    font-size: larger;
+  }
+
+  .fps-games-list-item {
+    margin: 0.5rem 0.5rem;
+    padding: 0.5rem 0.8rem;
+    border: 1px solid rgb(53, 2, 2);
+    border-radius: 5%;
+    background: rgb(156, 0, 0);
+    color: white;
+    font-family: 'Permanent Marker', cursive;
+    font-weight: bolder;
+  }
+
+  .platform-games-list-item {
+    margin: 0.5rem 0.5rem;
+    padding: 0.5rem 0.8rem;
+    border: 1px solid rgb(1, 58, 6);
+    border-radius: 5%;
+    background: rgb(13, 156, 0);
+    color: white;
+    font-family: 'Permanent Marker', cursive;
+    font-weight: bolder;
+  }
+
+  .sports-games-list-item {
+    margin: 0.5rem 0.5rem;
+    padding: 0.5rem 0.8rem;
+    border: 1px solid rgb(62, 248, 78);
+    border-radius: 5%;
+    background: rgb(1, 58, 6);
+    color: white;
+    font-family: 'Permanent Marker', cursive;
+    font-weight: bolder;
   }
